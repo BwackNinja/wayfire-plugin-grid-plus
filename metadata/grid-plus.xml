@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<wayfire>
+	<plugin name="grid-plus">
+		<_short>Grid Plus</_short>
+		<category>Desktop</category>
+		<option name="region_lists" type="dynamic-list" type-hint="dict">
+			<_short>Maximize Regions</_short>
+			<_long>Maximize Regions</_long>
+			<entry prefix="output_" type="string" name="output">
+				<_short>Output</_short>
+				<_long>Sets the output that should be subdivided.</_long>
+			</entry>
+			<entry prefix="regions_" type="string" name="regions">
+				<_short>Regions</_short>
+				<_long>Sets the comma-separated list of maximize regions for the output.</_long>
+			</entry>
+		</option>
+	</plugin>
+</wayfire>
